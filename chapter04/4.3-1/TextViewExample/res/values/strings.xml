@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TextViewExample1!</string>
+    <string name="lineheight1">设置固定行间距，设置固定行间距，设置固定行间距，设置固定行间距，设置固定行间距，设置固定行间距，设置固定行间距，设置固定行间距</string>
+     <string name="lineheight2">1.5倍行间距,1.5倍行间距,1.5倍行间距,1.5倍行间距,1.5倍行间距,1.5倍行间距,1.5倍行间距,1.5倍行间距,1.5倍行间距,1.5倍行间距</string>
+    <string name="txtlink">文字超链接：<a href='http://www.baidu.com'>首页</a></string>
+    <string name="tellink">电话超链接：<a href='http://www.baidu.com'>110</a></string>
+    <string name="app_name">TextViewExample</string>
+</resources>

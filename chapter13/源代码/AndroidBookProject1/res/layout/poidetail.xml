@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffffffff">
+	<!-- 标题行 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="5px">
+		<TextView android:id="@+id/detailPoiName"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textStyle="bold" android:textColor="#ff000000"
+			android:textSize="17px" android:layout_marginBottom="5px"
+			android:layout_marginTop="3px" android:gravity="center" />
+	</LinearLayout>
+
+	<!-- 兴趣点详细信息行 -->
+	<!-- 路书图片 -->
+	<LinearLayout android:id="@+id/poiDetailPicLayout"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginBottom="8px"
+		android:gravity="center">
+	</LinearLayout>
+
+	<!-- 兴趣点地址电话信息 -->
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginLeft="37px" android:id="@+id/addrAndTelLayout">
+	</LinearLayout>
+	<!-- 四个按钮 ：带我去，致电，播放，点评 -->
+	<!-- 按钮行 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="14px" android:layout_marginBottom="6px"
+		android:layout_marginLeft="8px" android:id="@+id/poibuts"
+		android:gravity="center">
+	</LinearLayout>
+	<ScrollView android:layout_width="310px"
+		android:layout_height="wrap_content" android:layout_marginTop="8px"
+		android:layout_marginLeft="8px">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginTop="3px" android:gravity="center">
+			<TextView android:layout_width="286px"
+				android:layout_marginTop="5px" android:layout_height="wrap_content"
+				android:id="@+id/detailPoiDesc" android:textColor="#ff000000"
+				android:lineSpacingMultiplier="1.1" />
+
+			<TextView android:layout_height="1dip" android:background="#ffffffff"
+				android:layout_width="fill_parent" android:layout_marginBottom="15px" />
+			<TextView android:layout_height="1dip" android:background="#ffffffff"
+				android:layout_width="fill_parent" android:layout_marginBottom="2px" />
+		</LinearLayout>
+
+	</ScrollView>
+
+
+</LinearLayout>

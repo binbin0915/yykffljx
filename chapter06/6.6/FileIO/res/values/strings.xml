@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FileIO</string>
+    <string name="list_text">文件列表：</string>
+    <string name="create_button">创建文件</string>
+    <string name="create_name">文件名称：</string>
+    <string name="create_content">文件内容：</string>
+</resources>

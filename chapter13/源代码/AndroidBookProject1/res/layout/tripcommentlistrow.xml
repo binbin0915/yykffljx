@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/trippoilistviewbg">
+	
+		<TextView android:id="@+id/commentRecord" android:layout_width="288px"
+			android:layout_height="wrap_content" android:layout_marginLeft="14px"
+			android:textSize="13px" android:textColor="#ff000000" 
+			android:layout_marginTop="5px"/>
+		<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="fill_parent"	android:layout_marginRight="14px"
+			android:layout_marginLeft="14px">
+			<TextView android:id="@+id/commentNick" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:layout_marginBottom="9px" android:textColor="#ff949494" />
+			<TextView android:id="@+id/commentDay" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="10px"
+				android:layout_marginBottom="9px" android:textColor="#ff949494" />
+		</LinearLayout>	
+		
+</LinearLayout>

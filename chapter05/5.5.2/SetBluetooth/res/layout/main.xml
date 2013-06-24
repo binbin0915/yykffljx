@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFF">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="40px" android:id="@+id/status_text"
+		android:textSize="18px" />
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:text="打开蓝牙" android:id="@+id/open_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="关闭蓝牙" android:id="@+id/close_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>

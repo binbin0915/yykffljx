@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/trippoilistviewbg">
+	<!-- 名称 -->
+	<TextView android:id="@+id/dealersName" android:layout_width="288px"
+		android:layout_height="wrap_content" android:textColor="#ff000000"
+		android:layout_marginLeft="14px" android:textStyle="bold"
+		android:layout_marginRight="10px" />
+	<!-- 地址 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="14px" android:layout_marginRight="10px">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#ff000000"
+			android:text="地址：" />
+		<TextView android:id="@+id/dealersAddr" android:layout_width="242px"
+			android:layout_height="wrap_content" android:textColor="#ff000000" />
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="14px" android:layout_marginBottom="4px"
+		android:layout_marginRight="10px">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#ff000000"
+			android:text="电话：" />
+		<TextView android:id="@+id/dealersTel" android:layout_width="242px"
+			android:layout_height="wrap_content" android:textColor="#ff000000" />
+	</LinearLayout>
+</LinearLayout>

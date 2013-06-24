@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffffffff">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="8px" android:layout_marginBottom="5px"
+		android:layout_marginLeft="5px">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="17px"
+			android:textStyle="bold" android:layout_gravity="center"
+			android:textColor="#ff000000" android:text="上汽大众经销商" />
+		<ImageView android:layout_width="70px"
+			android:layout_height="20px" android:layout_marginLeft="120px"
+			android:layout_marginTop="3px" android:background="@drawable/dzfont" />
+	</LinearLayout>
+	<TextView android:id="@+id/detailDealerName"
+		android:layout_width="285px" android:layout_height="wrap_content"
+		android:layout_marginTop="35px" android:textSize="17px"
+		android:layout_marginLeft="10px" android:textColor="#ff000000" />
+	<!-- 地址 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="25px" android:layout_marginLeft="10px">
+		<TextView android:layout_width="60px" android:layout_height="wrap_content"
+			android:textColor="#ff000000" android:text="地址：" />
+		<TextView android:id="@+id/detailDealerAddr"
+			android:layout_width="233px" android:layout_height="wrap_content"
+			android:textColor="#ff000000" />
+	</LinearLayout>
+	<!-- 联系人 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="10px">
+		<TextView android:layout_width="60px" android:layout_height="wrap_content"
+			android:textColor="#ff000000" android:text="联系人：" />
+		<TextView android:id="@+id/detailDealerPerson"
+			android:layout_width="233px" android:layout_height="wrap_content"
+			android:textColor="#ff000000" />
+	</LinearLayout>
+	<!-- 电话 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="10px">
+		<TextView android:layout_width="60px" android:layout_height="wrap_content"
+			android:textColor="#ff000000" android:text="电话：" />
+		<TextView android:id="@+id/detailDealerTel"
+			android:layout_width="233px" android:layout_height="wrap_content"
+			android:textColor="#ff000000" />
+	</LinearLayout>
+	<!-- 按钮行：带我去 ，致电，地图 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="14px" android:layout_marginBottom="6px"
+		android:layout_marginLeft="8px" android:gravity="center">
+		<ImageButton android:id="@+id/detailDealerTakeme"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@drawable/daiwoqu" android:layout_marginLeft="10px"
+			android:layout_marginRight="20px" />
+		<ImageButton android:id="@+id/detailDealerZD"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@drawable/zhidian" android:layout_marginLeft="10px"
+			android:layout_marginRight="20px" />
+		<ImageButton android:id="@+id/detailDealerMap"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@drawable/ditu" android:layout_marginLeft="10px"
+			android:layout_marginRight="20px" />
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 外层LinearLayout为垂直布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFF0F0F0">
+	<!-- 表格布局 -->
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1">
+		<TableRow android:layout_weight="1">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:text="第1行，第1列"
+				android:textSize="15px" android:textColor="#FF000000"
+				android:layout_weight="1" android:background="#FFFF0000" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:text="第1行，第2列"
+				android:textSize="15px" android:textColor="#FF000000"
+				android:layout_weight="1" android:background="#FF00FF00" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:text="第1行，第3列"
+				android:textSize="15px" android:textColor="#FF000000"
+				android:layout_weight="1" android:background="#FF0000FF" />
+		</TableRow>
+		<TableRow android:layout_weight="1">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:text="第2行，第1列"
+				android:textSize="15px" android:textColor="#FF000000"
+				android:layout_weight="1" android:background="#FFFFFF00" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:text="第2行，第2列"
+				android:textSize="15px" android:textColor="#FF000000"
+				android:layout_weight="1" android:background="#FF00FFFF" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:text="第2行，第3列"
+				android:textSize="15px" android:textColor="#FF000000"
+				android:layout_weight="1" android:background="#FFFF00FF" />
+		</TableRow>
+	</TableLayout>
+	<!-- 流式布局 -->
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="horizontal"
+		android:layout_weight="1" android:layout_marginTop="5px">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:text="组件1"
+			android:textSize="15px" android:textColor="#FF000000"
+			android:layout_weight="1" android:background="#FFFF0000" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:text="组件2"
+			android:textSize="15px" android:textColor="#FF000000"
+			android:layout_weight="1" android:background="#FF00FF00" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:text="组件3"
+			android:textSize="15px" android:textColor="#FF000000"
+			android:layout_weight="1" android:background="#FF0000FF" />
+	</LinearLayout>
+</LinearLayout>

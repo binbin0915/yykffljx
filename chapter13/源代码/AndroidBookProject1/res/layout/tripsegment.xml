@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffffffff">
+	<!-- 标题行 -->
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="5px">
+		<TextView android:id="@+id/tripName" android:layout_width="230px"
+			android:layout_height="wrap_content" android:layout_marginLeft="5px"
+			android:textStyle="bold" android:textColor="#ff000000"
+			android:textSize="17px" android:layout_marginTop="3px" />
+		<ImageView android:layout_width="70px"
+			android:layout_height="22px" android:layout_marginLeft="10px"
+			android:background="@drawable/dzfont" android:layout_marginTop="3px" />
+	</LinearLayout>
+	<TextView android:layout_height="1dip" android:background="#ffffffff"
+		android:layout_width="fill_parent" android:layout_marginBottom="5px" />
+
+	<ScrollView android:layout_width="310px"
+		android:layout_height="wrap_content" android:layout_marginTop="10px"
+		android:layout_marginLeft="3px">
+
+		<!-- 动态加载区域 加载路书分段信息 -->
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:id="@+id/tripSegs">			
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

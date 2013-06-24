@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFF">
+	<SurfaceView android:id="@+id/surface_view"
+		android:visibility="visible" android:layout_width="400px"
+		android:layout_height="fill_parent">
+	</SurfaceView>
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<Button android:layout_width="80px" android:layout_height="107px"
+			android:text=" 录 制 " android:id="@+id/start" />
+		<Button android:layout_width="80px" android:layout_height="107px"
+			android:layout_toRightOf="@id/start" android:text=" 停 止 " android:id="@+id/stop" />
+	</LinearLayout>
+</LinearLayout>

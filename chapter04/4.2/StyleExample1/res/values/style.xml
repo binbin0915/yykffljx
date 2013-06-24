@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="DefineTextStyle">
+		<item name="android:textSize">28px</item>
+		<item name="android:textColor">@color/darkgreen</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:background">@color/pink</item>		
+	</style>
+	
+</resources>

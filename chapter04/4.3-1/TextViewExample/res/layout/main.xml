@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffF4F4F4"
+	android:padding="8px">
+	<!-- 文字居中 -->
+	<TextView android:id="@+id/testGravity" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="居中文字"
+		android:gravity="center" android:background="#ff00ff00"
+		android:textColor="#ff000000" android:textSize="18sp" />
+	<!-- 文字跑马灯效果 -->
+	<TextView android:id="@+id/testEllipsize"
+		android:layout_width="100px" android:layout_height="wrap_content"
+		android:text="跑马灯文字效果" android:ellipsize="marquee"
+		android:marqueeRepeatLimit="marquee_forever" android:singleLine="true"
+		android:focusable="true" android:focusableInTouchMode="true"
+		android:textColor="#ff000000" android:textSize="20sp" />
+	<!-- 设置文字阴影效果 -->
+	<TextView android:id="@+id/testShadow" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="文字阴影效果"
+		android:textColor="#ff000000" android:shadowColor="#ffff0000"
+		android:shadowRadius="3.0" />
+	<!-- 设置网址超链接效果 -->
+	<TextView android:id="@+id/testAutoLink1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="网址超链接：http://www.baidu.com" android:textColor="#ff000000"
+		android:autoLink="all" android:textColorLink="#ff0000ff" />
+	<!-- 设置文字超链接效果 -->
+	<TextView android:id="@+id/testAutoLink2"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/txtlink" android:textColor="#ff000000" />
+	<!-- 设置电话超链接效果 -->
+	<TextView android:id="@+id/testAutoLink2"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/tellink" android:textColor="#ff000000" />
+	<!-- 设置字形 -->
+	<TextView android:id="@+id/testTextStyle"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="斜体" android:textColor="#ff000000" android:textStyle="italic" />
+	<!-- 设置文字缩放 -->
+	<TextView android:id="@+id/testTextScaleX"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="hello 0.5f" android:textColor="#ff000000"
+		android:textScaleX="0.5" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="hello 1.0f"
+		android:textColor="#ff000000" android:textScaleX="1.0" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="hello 1.5f"
+		android:textColor="#ff000000" android:textScaleX="1.5" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="hello 2.0f"
+		android:textColor="#ff000000" android:textScaleX="2.0" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="hello 2.5f"
+		android:textColor="#ff000000" android:textScaleX="2.5" />
+	<!-- 设置行间距 -->
+	<TextView android:id="@+id/testLineSpacingExtra"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/lineheight1" android:textColor="#ff000000"
+		android:lineSpacingExtra="4px" />
+	<!-- 设置行间距的倍数 -->
+	<TextView android:id="@+id/testLineSpacingMultiplier"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/lineheight2" android:textColor="#ff000000"
+		android:lineSpacingMultiplier="1.5" />
+</LinearLayout>

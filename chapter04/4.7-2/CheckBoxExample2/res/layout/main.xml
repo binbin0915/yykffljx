@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFFFF">
+	<CheckBox android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="自定义CheckBox"
+		android:button="@drawable/checkboxpic" android:textColor="#FF000000" />
+	<CheckBox android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="自定义CheckBox  选中状态checked"
+		android:button="@drawable/checkboxpic" android:checked="true"
+		android:textColor="#FF000000" />
+</LinearLayout>

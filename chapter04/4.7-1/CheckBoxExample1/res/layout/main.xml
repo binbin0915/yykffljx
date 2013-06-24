@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFFFF">
+	<CheckBox android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="复选框示例"
+		android:checked="true" android:layout_gravity="center_horizontal"
+		android:textColor="#FF000000" />
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="你喜欢的美食是？"
+		android:textColor="#FF000000" />
+	<CheckBox android:id="@+id/ChinaFood" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="中国菜"
+		android:textColor="#FF000000" />
+	<CheckBox android:id="@+id/JapaneseFood" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="日本菜"
+		android:textColor="#FF000000" />
+	<CheckBox android:id="@+id/ItalianFood" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="意大利菜"
+		android:textColor="#FF000000" />
+	<TextView android:id="@+id/result" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textColor="#FF000000" 
+		android:text="你喜欢的美食是:"/>
+</LinearLayout>

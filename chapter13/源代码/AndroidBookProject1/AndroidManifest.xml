@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.tyhj" android:versionCode="1" android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".Welcome" android:label="@string/app_name"
+			android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Welcome1" android:label="@string/app_name"
+			android:screenOrientation="portrait" />
+		<activity android:name=".TripList" android:label="@string/app_name"
+			android:screenOrientation="portrait" />
+		<activity android:name=".TripDetail" android:label="@string/app_name"
+			android:screenOrientation="portrait" />
+		<activity android:name=".TripSegment" android:label="@string/app_name"
+			android:screenOrientation="portrait" />
+		<activity android:name=".TripPoiList" android:label="@string/app_name"
+			android:screenOrientation="portrait" />
+		<activity android:name=".DZDealersList" android:label="@string/app_name"
+			android:screenOrientation="portrait" />
+		<activity android:name=".RoadMapView" android:label="@string/app_name"
+			android:screenOrientation="portrait" />
+		<activity android:name=".PoiDetail" android:label="@string/app_name"
+			android:screenOrientation="portrait" />
+		<activity android:name=".DZDealersDetail" android:label="@string/app_name"
+			android:screenOrientation="portrait" />
+		<activity android:name=".TripDetailPic" android:label="@string/app_name" />
+		<uses-library android:name="com.google.android.maps" />
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<!-- 使用GPS LocationProvider类的相关定位信息 -->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<!-- 使用GPS LocationProvider类的相关定位信息 -->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+		<uses-permission android:name="android.permission.CALL_PHONE" />
+</manifest> 

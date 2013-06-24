@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/loginbackground">
+	<!-- 登录上半部分界面布局-->
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="300px" android:layout_height="200px"
+		android:background="@drawable/loginbg" android:layout_marginTop="51px"
+		android:layout_marginLeft="10px" android:layout_marginRight="10px">
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:layout_marginLeft="10px" android:layout_marginRight="10px"
+			android:layout_marginTop="10px">
+			<!-- QQ头像图片 -->
+			<!-- ImageView:图片组件，用来显示图片的。该组件的详细属性使用会在第4章中详细讲解 -->
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:background="@drawable/qqpic" />
+			<!-- 账号密码文本框  -->
+			<TableLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<!-- 第一行 -->
+				<TableRow>
+					<!--
+						EditText:文本框组件，android:singleLine="true"：表示该文本框为单行
+						该组件的详细属性使用会在第4章中详细讲解
+					-->
+					<EditText android:hint="账号" android:layout_width="210px"
+						android:layout_height="wrap_content" android:singleLine="true" />
+				</TableRow>
+				<!-- 第二行 -->
+				<TableRow>
+					<!-- android:password="true":表示该文本框是用来输入密码的，输入的字符会以某种回显字符方式显示 -->
+					<EditText android:hint="密码" android:layout_width="210px"
+						android:layout_height="wrap_content" android:singleLine="true"
+						android:password="true" />
+				</TableRow>
+			</TableLayout>
+		</LinearLayout>
+		<!-- 记住密码和自动登录复选框的TableLayout布局 -->
+		<TableLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_marginLeft="10px">
+			<!-- 第一行 -->
+			<TableRow>
+				<!--
+					CheckBox:复选框组件，android:checked="true"：默认选中， 该组件的详细属性使用会在第4章中详细讲解
+				-->
+				<CheckBox android:checked="true" android:text="记住密码"
+					android:textColor="#FF000000" />
+				<CheckBox android:checked="true" android:layout_marginLeft="68px"
+					android:textColor="#FF000000" android:text="自动登录" />
+			</TableRow>
+		</TableLayout>
+		<!-- 登录按钮 -->
+		<!-- ImageButton:图片按钮，该按钮上面可以显示图片， 该组件的详细属性使用会在第4章中详细讲解 -->
+		<ImageButton android:layout_width="164px"
+			android:layout_height="35px" android:layout_gravity="center"
+			android:background="@drawable/loginbutt" />
+	</LinearLayout>
+	<!-- 界面底部的四个复选框的TableLayout布局-->
+	<TableLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="10px"
+		android:layout_marginTop="40px">
+		<TableRow>
+			<CheckBox android:text="隐身登录" android:textColor="#FF000000" />
+			<CheckBox android:layout_marginLeft="68px"
+				android:textColor="#FF000000" android:text="开启振动" />
+		</TableRow>
+		<TableRow>
+			<CheckBox android:text="接收群消息" android:textColor="#FF000000" />
+			<CheckBox android:layout_marginLeft="68px"
+				android:textColor="#FF000000" android:text="静音登录" />
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

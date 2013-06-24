@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+android:background：设置当列表项获取焦点和按下时显示的效果，
+trippoilistviewbg.xml在res/drawable/位置 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/trippoilistviewbg">
+	<!-- 用来显示手机图片 -->
+	<ImageView android:id="@+id/tripImg" android:layout_width="68px"
+		android:layout_height="65px" android:layout_margin="10px" />
+	<!-- 手机名称，价格，打折信息的LinearLayout-->
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginTop="10px" android:layout_marginRight="10px"
+		android:layout_marginBottom="10px">
+		<!-- 手机名称 -->
+		<TextView android:id="@+id/phoneName" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#ff000000" />
+		<!-- 手机价格 -->
+		<TextView android:id="@+id/phoneMoney" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#ff000000"
+			android:layout_marginTop="5px" android:layout_marginRight="20px" />
+		<!-- 手机打折 -->
+		<TextView android:id="@+id/phoneDiscount" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#ffFF0000"
+			android:layout_marginTop="5px" android:layout_marginRight="20px" />
+
+
+	</LinearLayout>
+</LinearLayout>

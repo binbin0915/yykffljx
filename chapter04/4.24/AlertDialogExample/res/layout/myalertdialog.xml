@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="280px"
+	android:layout_height="200px" android:id="@+id/myalert"
+	android:padding="20px">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="激活："
+			android:textColor="#FFBFBFBF" android:gravity="center" />
+		<TextView android:id="@+id/tripTitle" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="手机充值卡业务"
+			android:textColor="#FFFFFFFF" android:gravity="center"
+			android:textSize="14px" />
+	</LinearLayout>
+
+	<EditText android:id="@+id/inputKey" android:layout_width="240px"
+		android:layout_height="40sp" android:hint="输入充值卡密码" android:textSize="15px"
+		android:layout_marginTop="10px" android:numeric="integer" />
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="您可以淘宝商店购买："
+		android:layout_marginTop="10px" android:textColor="#FFFFFFFF" />
+
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="10px">
+
+		<ImageButton android:id="@+id/cancel"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@drawable/qx" />
+
+		<ImageButton android:id="@+id/ok" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/qr"
+			android:layout_marginLeft="8px" />
+
+		<ImageButton android:id="@+id/buy" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/gm"
+			android:layout_marginLeft="8px" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFF">
+	<EditText android:id="@+id/phone_number"
+		android:layout_width="200px" android:layout_height="wrap_content"
+		android:layout_gravity="center"></EditText>
+	<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:background="#FFFFFF" android:layout_gravity="center">
+		<Button android:text="直接拨打电话" android:id="@+id/phone_call"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="拨打电话界面" android:id="@+id/phone_dial"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>

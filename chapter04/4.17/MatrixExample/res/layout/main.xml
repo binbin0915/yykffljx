@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FF929854">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center">
+		<Button android:id="@+id/rotateLeft" android:text="左旋"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<Button android:id="@+id/rotateRight" android:text="右旋"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<Button android:id="@+id/scaleBig" android:text="放大"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<Button android:id="@+id/scaleSmall" android:text="缩小"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+	</LinearLayout>
+	<ImageView android:id="@+id/pic" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:background="@drawable/p2"
+		android:layout_gravity="center" />
+</LinearLayout>

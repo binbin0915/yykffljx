@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/myLayout" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#FFFFFFFF">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="长时单击事件"
+		android:textColor="#FF000000" android:textSize="18px" />
+	<Button android:id="@+id/longBut" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="长按我噢" />
+</LinearLayout>

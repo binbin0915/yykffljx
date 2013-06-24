@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"  android:background="#ffffffff">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="25px" android:layout_marginRight="15px"
+		android:layout_marginTop="15px">
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:layout_marginBottom="15px">
+			<TextView android:layout_width="90px"
+				android:layout_height="wrap_content" android:text="用户名：" 
+				android:textSize="17px" android:textColor="#ff000000"
+				android:gravity="right"/>
+			<EditText android:id="@+id/username" android:layout_width="180px"
+				android:layout_height="wrap_content" android:singleLine="true"
+				android:hint="输入用户名" android:background="#D6D6D8"
+				android:paddingLeft="10px"/>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginBottom="15px">
+			<TextView android:layout_width="90px"
+				android:layout_height="wrap_content" android:text="密码 ：" 
+				android:textSize="17px" android:textColor="#ff000000"
+				android:gravity="right"/>
+			<EditText android:id="@+id/password" android:layout_width="180px"
+				android:layout_height="wrap_content" android:password="true"
+				android:hint="输入密码" android:singleLine="true" android:background="#D6D6D8"
+				android:paddingLeft="10px"/>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TextView android:layout_width="90px"
+				android:layout_height="wrap_content" android:text="邮箱 ：" 
+				android:textSize="17px" android:textColor="#ff000000"
+				android:gravity="right"/>
+			<EditText android:id="@+id/email" android:layout_width="180px"
+				android:layout_height="wrap_content" 
+				android:hint="输入邮箱" android:singleLine="true" android:background="#D6D6D8"
+				android:paddingLeft="10px"/>
+		</LinearLayout>
+	</LinearLayout>
+	<Button android:id="@+id/login" android:layout_width="113px"
+		android:layout_height="wrap_content" android:text="发    送"
+		android:layout_marginLeft="111px" android:layout_marginTop="15px" 
+		android:textSize="17px"
+		/>
+</LinearLayout>

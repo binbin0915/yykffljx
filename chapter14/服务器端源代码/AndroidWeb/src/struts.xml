@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8"/>
+	<package name="com.aw.action" extends="json-default">
+		<action name="goodsAction" class="com.aw.action.GoodsAction">
+			<result type="json" />
+		</action>
+		
+		<action name="usersAction" class="com.aw.action.UsersAction">
+			<result type="json" />
+		</action>
+		
+		<action name="billAction" class="com.aw.action.BillAction">
+			<result type="json" />
+		</action>
+	</package>
+</struts>
+
+
+

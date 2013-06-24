@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+		ScrollView标签为滚动view标签，当内容超出窗口可视范围会自动出现滚动条
+		android:scrollbarThumbVertical： 指定滚动条的背景图片
+	-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffF4F4F4"
+	android:fadingEdge="vertical" android:fadingEdgeLength="100px"
+	android:scrollbarThumbVertical="@drawable/scrollbackground">
+	<!-- android:text:指定TextView上显示的文字为strings.xml中变量lineheight1内容  -->
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/lineheight1"
+		android:textColor="#ff000000" />
+</ScrollView>

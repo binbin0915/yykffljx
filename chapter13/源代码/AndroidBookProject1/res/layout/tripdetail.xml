@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffffffff">
+	<!-- 标题行 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="5px">
+		<TextView android:id="@+id/tripName" android:layout_width="230px"
+			android:layout_height="wrap_content" android:layout_marginLeft="5px"
+			android:textStyle="bold" android:textColor="#ff000000"
+			android:textSize="17px" android:layout_marginTop="3px" />
+		<ImageView android:layout_width="70px"
+			android:layout_height="22px" android:layout_marginLeft="10px"
+			android:background="@drawable/dzfont" android:layout_marginTop="3px" />
+	</LinearLayout>
+	<!-- 按钮行 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="8px" android:layout_marginLeft="5px">
+		<ImageButton android:id="@+id/xqButt"
+			android:layout_width="73px" android:layout_height="30px"
+			android:background="@drawable/xq" />
+		<ImageButton android:id="@+id/xqdButt"
+			android:layout_width="73px" android:layout_height="30px"
+			android:background="@drawable/xqd" android:layout_marginLeft="45px" />
+		<ImageButton android:id="@+id/sdButt"
+			android:layout_width="73px" android:layout_height="30px"
+			android:background="@drawable/sd" android:layout_marginLeft="45px" />
+	</LinearLayout>
+	<TextView android:layout_height="1dip" android:background="#ffffffff"
+		android:layout_width="fill_parent" android:layout_marginBottom="15px" />
+	<TextView android:layout_height="1dip" android:background="#ffffffff"
+		android:layout_width="fill_parent" android:layout_marginBottom="2px" />
+	<ScrollView android:layout_width="310px"
+		android:layout_height="wrap_content">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<!-- 路书图片 -->
+			<ImageView android:id="@+id/tripPic"
+				android:layout_marginTop="8px" android:layout_marginLeft="13px"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<!-- 路书起点终点信息 -->
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="18px" android:layout_marginTop="8px">
+				<TextView android:id="@+id/startPos" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="#ff000000" />
+				<TextView android:id="@+id/endPos" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="#ff000000" />
+				<TextView android:id="@+id/tripPro" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="#ff000000" />
+				<TextView android:id="@+id/distance" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="#ff000000" />
+				<TextView android:id="@+id/suggest" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="#ff000000" />
+				<TextView android:id="@+id/bestSeason"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textColor="#ff000000" />
+			</LinearLayout>
+			<!-- 指数信息 -->
+			<TextView android:id="@+id/tgzs" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="线路指数"
+				android:textStyle="bold" android:layout_marginTop="8px"
+				android:layout_marginLeft="18px" android:textColor="#ff000000" />
+			<!-- 四个指数 -->
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="5px" android:layout_marginLeft="18px">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="路况指数："
+					android:textColor="#ff000000" />
+				<ImageView android:id="@+id/jsnd" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="18px">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="风光指数："
+					android:textColor="#ff000000" />
+				<ImageView android:id="@+id/fgzs" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="18px">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="人文指数："
+					android:textColor="#ff000000" />
+				<ImageView android:id="@+id/rwzs" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="18px">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="美食指数："
+					android:textColor="#ff000000" />
+				<ImageView android:id="@+id/mszs" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+			<!-- 介绍 -->
+			<TextView android:id="@+id/js" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="线路介绍"
+				android:textStyle="bold" android:layout_marginTop="8px"
+				android:layout_marginLeft="18px" android:textColor="#ff000000" />
+			<TextView android:layout_width="277px"
+				android:layout_marginTop="5px" android:layout_height="wrap_content"
+				android:layout_marginLeft="18px" android:id="@+id/tripDesc"
+				android:textColor="#ff000000" android:lineSpacingMultiplier="1.1" />
+			<!-- 提示 -->
+			<TextView android:id="@+id/ts" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="线路提示"
+				android:textStyle="bold" android:layout_marginTop="8px"
+				android:layout_marginLeft="18px" android:textColor="#ff000000" />
+			<TextView android:layout_width="277px"
+				android:layout_marginTop="5px" android:layout_height="wrap_content"
+				android:layout_marginLeft="18px" android:id="@+id/tripTip"
+				android:textColor="#ff000000" android:lineSpacingMultiplier="1.1" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

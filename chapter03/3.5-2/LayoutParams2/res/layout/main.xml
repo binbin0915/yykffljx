@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- 流式布局，id为 layout-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:id="@+id/layout"
+	android:background="#FFF0F0F0" android:padding="8px">	
+</LinearLayout>

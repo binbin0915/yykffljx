@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFF">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="10px">
+		<TextView android:text="收件人：" android:id="@+id/TextView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<EditText android:id="@+id/addressee" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></EditText>		
+	</LinearLayout>
+	<EditText android:id="@+id/message" android:layout_width="fill_parent"
+		android:layout_height="200px" android:gravity="top"></EditText>
+	<Button android:text="发送信息" android:id="@+id/send"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center"></Button>
+</LinearLayout>

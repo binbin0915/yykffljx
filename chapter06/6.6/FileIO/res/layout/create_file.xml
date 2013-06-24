@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFF"
+	android:textColor="#000000">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/create_name" android:textColor="#000000" android:textSize="18px"></TextView>
+	<EditText android:id="@+id/createName" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></EditText>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/create_content" android:textColor="#000000" android:textSize="18px"></TextView>
+	<EditText android:id="@+id/createContent"
+		android:layout_width="fill_parent" android:layout_height="290px"
+		android:gravity="top"></EditText>
+	<Button android:id="@+id/createFileButton" android:layout_width="100px"
+		android:layout_height="40px" android:text="@string/create_button"
+		android:layout_gravity="center_horizontal" android:textSize="18px"></Button>
+</LinearLayout>
