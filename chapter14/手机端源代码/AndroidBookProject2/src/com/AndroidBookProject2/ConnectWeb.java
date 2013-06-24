@@ -13,7 +13,7 @@ import org.json.JSONObject;
 
 
 public class ConnectWeb {
-	public static String path = "http://chinaroadbook.xicp.net:8080/AndroidWeb/";
+	public static String path = "http://ip.haso-soft.com:28080/AndroidWeb/";
 
 	// 访问网站数据库获取数据
 	private String connWeb(String url) {
